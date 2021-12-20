@@ -129,3 +129,8 @@ bindsym $mod+Shift+b exec --no-startup-id scrot -s -iozd 1 -F 'Pictures/Screensh
 # Setup gaps and remove window border
 gaps inner 4
 for_window [class=".*"] border pixel 0
+
+# Start programs
+exec --no-startup-id picom
+exec --no-startup-id /home/delnyn/.config/polybar/launch.sh 
+exec --no-startup-id xwallpaper --output all --zoom ~/Pictures/purple-glow.jpg
