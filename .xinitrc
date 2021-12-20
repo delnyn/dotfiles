@@ -48,7 +48,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-xwallpaper --output all --zoom ~/Pictures/sea-by-jakob-owens.jpg &
-/home/delnyn/.config/polybar/launch.sh &
+i3 & 
 picom &
-exec i3
+xwallpaper --output all --zoom ~/Pictures/purple-glow.jpg &
+exec /home/delnyn/.config/polybar/launch.sh

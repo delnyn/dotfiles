@@ -10,7 +10,7 @@ exec --no-startup-id dex --autostart --environment i3
 # Use i3lock when xss-lock is triggered
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
-font pango:IBM Plex Mono 10
+font pango:Inter 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -97,7 +97,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+C reload
 # Restart i3 (while keeping layout and session)
 bindsym $mod+Shift+P restart
 # Exit i3 (logs out of X)
