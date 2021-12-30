@@ -98,7 +98,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias tbbping="ping discord-baguette-bot.glitch.me"
 
-export VARTEST="yumi spageti"
-alias config='/usr/bin/git --git-dir=/home/delnyn/dotfiles --work-tree=/home/delnyn'
+export CC="clang"
+export CXX="clang++"
+
+alias config='/usr/bin/git --git-dir=/home/delnyn/.dotfiles --work-tree=/home/delnyn'
+alias tbbping="ping discord-baguette-bot.glitch.me"
