@@ -126,9 +126,9 @@ bindsym $mod+p mode "resize"
 bindsym $mod+b exec --no-startup-id scrot -iozd 1 -F 'Pictures/Screenshots/screenshot-%m-%d-%H-%M.png'
 bindsym $mod+Shift+b exec --no-startup-id scrot -s -iozd 1 -F 'Pictures/Screenshots/screenshot-%m-%d-%H-%M.png'
 
-# Setup gaps and remove window border
-gaps inner 8
+# Remove window borders and set gaps
 for_window [class=".*"] border pixel 0
+gaps inner 8
 
 # Start programs
 exec --no-startup-id picom
