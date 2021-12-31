@@ -22,7 +22,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # Start rofi
-bindsym $mod+s exec "rofi -show run"
+bindsym $mod+s exec "rofi -show drun"
 
 # Change focus using the arrow keys
 bindsym $mod+Left focus left

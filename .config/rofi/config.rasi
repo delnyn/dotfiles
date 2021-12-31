@@ -1,6 +1,7 @@
 configuration {
+	fixed-num-lines: false;
 	timeout {
-		 action: "kb-cancel";
+		action: "kb-cancel";
 		delay:  0;
 	}
 	filebrowser {
@@ -9,4 +10,4 @@ configuration {
 	}
 }
 
-@theme "sea"
+@theme "redlake"
