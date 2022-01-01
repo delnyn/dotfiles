@@ -1,7 +1,7 @@
 [colors]
 background = #00000000
 foreground = #000000
-foreground-alt = #808080
+foreground-alt = #80000000
 primary = #4080FF
 alert = #e34040
 
@@ -9,7 +9,9 @@ alert = #e34040
 override-redirect = false
 fixed-center = true
 height = 36
-background = ${colors.background}
+# background = ${colors.background}
+background-0 = #80ffffff
+background-1 = #00ffffff
 foreground = ${colors.foreground}
 padding = 3
 module-margin = 1

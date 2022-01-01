@@ -123,8 +123,7 @@ mode "resize" {
 bindsym $mod+p mode "resize"
 
 # Screen capture
-bindsym $mod+b exec --no-startup-id scrot -iozd 1 -F 'Pictures/Screenshots/screenshot-%m-%d-%H-%M.png'
-bindsym $mod+Shift+b exec --no-startup-id scrot -s -iozd 1 -F 'Pictures/Screenshots/screenshot-%m-%d-%H-%M.png'
+bindsym $mod+b exec flameshot launcher
 
 # Remove window borders and set gaps
 for_window [class=".*"] border pixel 0
